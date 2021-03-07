@@ -1,0 +1,302 @@
+@media screen and (max-width: 480px)
+{
+    body {
+        width: 100%;
+    }
+    header {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 15vw 15vw;
+        grid-template-areas: "logo sign" "nav nav";
+        height: 40vw;
+        padding: 5vw 0 0 0;
+    }
+    .logo {
+        height: 15vw;
+        padding-left: 4vw;
+    }
+    .nav_header {
+        height: 15vw;
+        width: 100%;
+    }
+    .nav_header_lien {
+        display: flex;
+        justify-content: center;
+        font-size: 5vw;
+        width: 60vw;
+        border-bottom: 2px solid #f2f2f2;
+        border-top: none;
+    }
+    .nav_header_lien:hover {
+        transition: border 0.5s ease-out;
+        border-top: 2px solid #0065FC;
+        color: #0065FC;
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+    }
+    .inscription {
+        font-size: 5vw;
+        padding-right: 5vw;
+    }
+    h1 {
+        margin: 10vw 0 3vw 0;
+        font-size: 6vw;
+        width: 95%;
+    }
+    h1+p {
+        font-size: 5vw;
+        margin: 0 0 8vw 0;
+        
+    }
+    h2 {
+        font-size: 5vw;
+        margin-left: 5vw;
+    }
+    #hébergement h2 {
+        margin: 5vw 0;
+        font-size: 6.2vw;
+    }
+    h3 {
+        margin: 0;
+        font-size: 4vw;
+    }
+    h4 {
+        margin: 4vw 0;
+        font-size: 5vw;
+    }
+    h1+p {
+        margin: 0;
+        font-size: 4.3vw;
+    }
+    .fa-star {
+        width: 3.5vw;
+        font-size: 3.5vw;
+    }
+    .fa-map-marker-alt {
+        font-size: 5vw;
+    }
+    .input_search {
+        justify-content: center;
+       margin: 10vw 0;
+    }
+    .search_left {
+        border-radius: 4vw 0 0 4vw;
+        width: 14vw;
+        height: 14vw;
+    }
+    .search_center {
+        width: 65%;
+        font-size: 5.2vw;
+        padding: 0 4vw;
+    }
+    .search_right_button {
+        z-index: 1;
+        visibility: hidden;
+    }
+    .search_right_loupe {
+        z-index: 2;
+        color: white;
+        background-color: #0065FC;
+        border-radius: 4vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 2vw;
+        cursor: pointer;
+        width: 9vw;
+        margin-left: -5vw;
+    }
+    .fa-search {
+        font-size: 4.5vw;
+    }
+    #search {
+        padding: 0 3.5vw;
+    }
+    .search_filter h3 {
+        margin: 0 30vw 4vw 0;
+        font-size: 5vw;
+    }
+    .search_filter {
+        height: auto;
+    }
+    .filter {
+        height: 9.3vw;
+        border-radius: 5vw;
+        border: 1px solid #c7c6c6;
+        margin-left: 0;
+        margin-right: 3vw;
+        margin-bottom: 4vw;
+    }
+    .bubble {
+        height: 9.6vw;
+        width: 9.6vw;
+    }
+    .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+        font-size: 3.5vw;
+    }
+    .filter a {
+        font-size: 5vw;
+        padding: 0 3vw;
+    }
+    .logo_result {
+        border-radius: 25px;
+        width: 5vw;
+        height: 5vw;
+        position: absolute;
+        margin-bottom: 5vw;
+    }
+    .fa-info {
+        font-size: 2.5vw;
+        color: #0065FC;
+    }
+    .fa-chart-line{
+        font-size: 5vw;
+    }
+    .text_result {
+        margin-left: 7vw;
+        font-size: 4.2vw;
+    }
+    #hébergement_aside {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #hébergement {
+        background-color: white;
+        width: 90%;
+        padding: 0;
+    }
+    .card {
+        border-radius: 5vw;
+        width: 100%;
+        height: 54vw;
+        border: 0.8vw solid white;
+        margin-bottom: 5vw;
+    }
+    .texte_image {
+        margin-left: 3vw;
+    }
+    h3+p {
+        font-size: 4vw;
+    }
+    aside {
+        border-radius: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #popular_text_card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 11vw 0 7vw 0;
+    }
+    #carte_aside {
+        width: 90%;
+    }
+    .popular_card {
+        border-radius: 5vw;
+        height: 40vw;
+        border: 0.8vw solid white;
+    }
+    #popular_text_card h2 {
+        font-size: 6vw;
+        margin: 2vw 0 0 0;
+    }
+    .texte_popular {
+        margin-left: 5vw;
+        margin-top: 2.5vw;
+    }
+    .texte_popular p {
+        font-size: 4vw;
+    }
+    .texte_popular span {
+            margin-top: 16vw;
+    }
+    .image_popular {
+        width: 100%;
+    }
+    #activities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #activities h3 {
+        margin: 5vw 0;
+        font-size: 6.2vw;
+        width: 90%;
+    }
+    .global_card_activities {
+        width: 90%;
+    }
+    .conteneur_card_activities {
+        width: 100%
+    }
+    .card_activities {
+        height: 54vw;
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 7vw;
+    }  
+    .card_activities2 {
+        width: 100%;
+        height: 54vw;
+        border-radius: 15px;
+        margin-bottom: 7vw;
+    } 
+    .card_activities3 {
+        width: 100%;
+        height: 54vw;
+        border-radius: 15px;
+        margin-bottom: 7vw;
+    }  
+    .card_activities4 {
+        width: 100%;
+        height: 54vw;
+        border-radius: 15px;
+        margin-bottom: 7vw;
+    }
+    .card_activities5 {
+        width: 100%;
+        height: 54vw;
+        border-radius: 15px;
+        margin-bottom: 7vw;
+    }    
+    .contour_image_card_activities {
+        height: 70%;
+    }
+    .contour_image_card_activities2 {
+        height: 70%;
+    }
+    .contour_image_card_activities3 {
+        height: 70%;
+    }
+    .contour_image_card_activities4 {
+        height: 70%;
+    }
+    .contour_image_card_activities5 {
+        height: 70%;
+    }
+    #footer {
+        padding: 6vw;
+    }
+    .nav_footer {
+        width: 100%;
+        margin-bottom: 7vw;
+    }
+    footer {
+        width: 100%;
+    }
+    footer h2 {
+        margin: 5vw 0;
+        font-size: 6vw;
+    }
+    footer a {
+        font-size: 5vw;
+        margin-bottom: 3vw;
+    }
+    main {
+        margin-top: -13vw;
+        padding: 0;
+    }
+}
